@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-light: #90ee90;
+  --color-cyber-bright: #59ff00;
+  --color-cyber-dark: #0A3205;
+  --color-cyber-white: #f8f6f7;
+  --color-cyber-black: #000000;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cyber-black);
+    color: var(--color-cyber-white);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    background: rgba(10, 50, 5, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(89, 255, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .glass-button {
+    background: rgba(89, 255, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(89, 255, 0, 0.3);
+    color: var(--color-cyber-bright);
+    transition: all 0.3s ease;
+  }
+
+  .glass-button:hover:not(:disabled) {
+    background: rgba(89, 255, 0, 0.2);
+    border-color: rgba(89, 255, 0, 0.8);
+    box-shadow: 0 0 15px rgba(89, 255, 0, 0.3);
+  }
+
+  .glass-button-active {
+    background: rgba(89, 255, 0, 0.3);
+    border-color: rgba(89, 255, 0, 1);
+    box-shadow: 0 0 20px rgba(89, 255, 0, 0.4);
+    color: var(--color-cyber-white);
+  }
+
+  .glass-button-wrong {
+    background: rgba(255, 50, 50, 0.2);
+    border-color: rgba(255, 50, 50, 0.8);
+    color: #ffb3b3;
+  }
+
+  .glass-button-correct {
+    background: rgba(89, 255, 0, 0.3);
+    border-color: rgba(89, 255, 0, 1);
+    color: var(--color-cyber-white);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(89, 255, 0, 0.5);
+  }
+}
