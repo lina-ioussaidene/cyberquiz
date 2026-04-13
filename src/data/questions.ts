@@ -11,337 +11,337 @@ export const quizData: Record<Difficulty, Question[]> = {
   Beginner: [
     {
       id: 1,
-      text: "What does 'phishing' refer to?",
+      text: "Quel est l’acronyme du terme HTTP ?",
       options: [
-        "Fishing for data in a lake",
-        "Fraudulent emails to steal information",
-        "A type of firewall",
-        "A secure password protocol"
+        "Hypertext Transfer Program",
+        " Hyperlink Transmission Text Protocol",
+        "Hypertext Transfer Protocol",
+        "High-speed Text Transfer Protocol"
       ],
-      correctAnswer: "Fraudulent emails to steal information"
+      correctAnswer: "Hypertext Transfer Protocol"
     },
     {
       id: 2,
-      text: "Which of the following is a strong password?",
+      text: "Que signifie IP ?",
       options: [
-        "password123",
-        "admin",
-        "MyDogFluffy",
-        "P@$$w0rd!2024#XyZ"
+        "Internet Program",
+        "Internal Protocol",
+        "Interface Program",
+        "Internet Protocol"
       ],
-      correctAnswer: "P@$$w0rd!2024#XyZ"
+      correctAnswer: "Internet Protocol"
     },
     {
       id: 3,
-      text: "What does VPN stand for?",
+      text: "Quel est le rôle d’un DNS?",
       options: [
+        "Crypter les données",
+        "Scanner les ports",
+        "Bloquer les virus",
+        "Traduire un nom de domaine en adresse IP"
+      ],
+      correctAnswer: "Traduire un nom de domaine en adresse IP"
+    },
+    {
+      id: 4,
+      text: "Que signifie 'VPN'?",
+      options: [
+        "Verified Private Node",
+        "Virtual Protocol Network",
         "Virtual Private Network",
-        "Very Public Network",
-        "Visual Processing Node",
-        "Vulnerable Protocol Network"
+        "Very Protected Node"
       ],
       correctAnswer: "Virtual Private Network"
     },
     {
-      id: 4,
-      text: "What is malware?",
-      options: [
-        "Hardware components",
-        "Malicious software designed to cause harm",
-        "A type of antivirus",
-        "A secure web browser"
-      ],
-      correctAnswer: "Malicious software designed to cause harm"
-    },
-    {
       id: 5,
-      text: "Why should you update your software regularly?",
+      text: "Quel est le rôle principal d'un pare-feu (firewall)?",
       options: [
-        "To change the color scheme",
-        "To patch security vulnerabilities",
-        "To make the computer heavier",
-        "To delete old files automatically"
+        "Accélérer la connexion internet",
+        "Sauvegarder les fichiers automatiquement",
+        "Filtrer le trafic réseau entrant et sortant",
+        "Filtrer les spams dans les emails"
       ],
-      correctAnswer: "To patch security vulnerabilities"
+      correctAnswer: "Filtrer le trafic réseau entrant et sortant"
     },
     {
       id: 6,
-      text: "What is two-factor authentication (2FA)?",
+      text: "Une attaque basée sur l'hôte cible?",
       options: [
-        "Logging in twice",
-        "Using two different passwords",
-        "Requiring two forms of identification to access an account",
-        "Sharing your password with a friend"
+        "Les routeurs",
+        "Les ordinateurs",
+        "Les câbles du réseau",
+        "Les commutateurs"
       ],
-      correctAnswer: "Requiring two forms of identification to access an account"
+      correctAnswer: "Les ordinateurs"
     },
     {
       id: 7,
-      text: "What does the 'S' in HTTPS stand for?",
+      text: "Lequel de ces dispositifs logiciels n’est pas considéré comme un malware ?",
       options: [
-        "System",
-        "Secure",
-        "Standard",
-        "Software"
+        "Pare-feu",
+        "Les virus",
+        "Ransomware",
+        "Hameçonnage"
       ],
-      correctAnswer: "Secure"
+      correctAnswer: "Pare-feu"
     },
     {
       id: 8,
-      text: "What is a firewall?",
+      text: "Qu’est-ce qu’un phishing?",
       options: [
-        "A literal wall of fire",
-        "A network security system that monitors and controls traffic",
-        "A type of computer virus",
-        "A fast internet connection"
+        "Un virus caché",
+        "Un site securisé",
+        "Une technique pour accéder aux informations sensibles ",
+        "Un logiciel de sécurité"
       ],
-      correctAnswer: "A network security system that monitors and controls traffic"
+      correctAnswer: "Une technique pour accéder aux informations sensibles "
     },
     {
       id: 9,
-      text: "What should you do if you find a random USB drive?",
+      text: "À quoi sert HTTPS sur un site web ?",
       options: [
-        "Plug it into your computer to see what's on it",
-        "Give it to a friend",
-        "Hand it to IT or security personnel without plugging it in",
-        "Format it and use it for yourself"
+        "À accélérer le site",
+        "À protéger ton ordinateur contre tous les virus",
+        "À vérifier automatiquement ton mot de passe",
+        "À sécuriser les données échangées"
       ],
-      correctAnswer: "Hand it to IT or security personnel without plugging it in"
+      correctAnswer: "À sécuriser les données échangées"
     },
     {
       id: 10,
-      text: "What is social engineering?",
+      text: "Qu'est-ce que l'ingénierie sociale ?",
       options: [
-        "Building social networks",
-        "Manipulating people into giving up confidential information",
-        "A type of coding language",
-        "Designing user interfaces"
+        "Création de réseaux sociaux",
+        "Manipuler des personnes pour obtenir des informations confidentielles",
+        "Un type de langage de programmation ",
+        "Conception d’interfaces utilisateur"
       ],
-      correctAnswer: "Manipulating people into giving up confidential information"
+      correctAnswer: "Manipuler des personnes pour obtenir des informations confidentielles"
     }
   ],
   Intermediate: [
     {
       id: 11,
-      text: "What is a DDoS attack?",
+      text: "Quel port par défaut est utilisé pour SSH?",
       options: [
-        "Direct Data Overload System",
-        "Distributed Denial of Service",
-        "Digital Download Operating System",
-        "Data Destruction on Server"
+        "21",
+        "22",
+        "80",
+        "443"
       ],
-      correctAnswer: "Distributed Denial of Service"
+      correctAnswer: "22"
     },
     {
       id: 12,
-      text: "What is the main purpose of encryption?",
+      text: "Quel outil est utilisé pour analyser les paquets du réseau?",
       options: [
-        "To make files smaller",
-        "To convert data into a secure format unreadable without a key",
-        "To speed up internet connection",
-        "To organize files alphabetically"
+        "Nmap",
+        "Wireshark",
+        "Brup Suite",
+        "Metasploit"
       ],
-      correctAnswer: "To convert data into a secure format unreadable without a key"
+      correctAnswer: "Wireshark"
     },
     {
       id: 13,
-      text: "What is ransomware?",
+      text: "Que fait une injection SQL?",
       options: [
-        "Software that demands payment to restore access to data",
-        "A program that generates random passwords",
-        "A tool for recovering deleted files",
-        "A type of secure email service"
+        "Inonde le serveur de requêtes",
+        "Exécute du JavaScript malveillant côté client",
+        "Manipule une base de données via des entrées malveillantes",
+        "Contourner l'authentification via des requêtes SQL dans les en-têtes HTTP"
       ],
-      correctAnswer: "Software that demands payment to restore access to data"
+      correctAnswer: "Manipule une base de données via des entrées malveillantes"
     },
     {
       id: 14,
-      text: "What is a zero-day vulnerability?",
+      text: "Que signifie 'Zero-Day' ?",
       options: [
-        "A bug that takes zero days to fix",
-        "A flaw unknown to the vendor, meaning they have zero days to prepare a patch",
-        "A virus that deletes all data at midnight",
-        "A secure system with zero flaws"
+        "Une faille corrigée en moins de 24h",
+        "Une vulnérabilité inconnue du fournisseur sans patch disponible",
+        "Un malware qui se déclenche à une date précise",
+        "Une attaque lancée à minuit pour éviter la détection"
       ],
-      correctAnswer: "A flaw unknown to the vendor, meaning they have zero days to prepare a patch"
+      correctAnswer: "Une vulnérabilité inconnue du fournisseur sans patch disponible"
     },
     {
       id: 15,
-      text: "What is the principle of least privilege?",
+      text: "L'attaque SMURF",
       options: [
-        "Giving users the maximum access possible",
-        "Giving users only the access necessary to perform their job",
-        "Revoking all access from everyone",
-        "Allowing anyone to access the admin panel"
+        "Exploite le fonctionnement du protocole ARP",
+        "Est une attaque par déni de service",
+        "Exploite le fonctionnement du protocole UDP",
+        "Exploite le fonctionnement du protocole UDP"
       ],
-      correctAnswer: "Giving users only the access necessary to perform their job"
+      correctAnswer: "Est une attaque par déni de service"
     },
     {
       id: 16,
-      text: "What does SQL injection target?",
+      text: "Dans le protocole SSL, la protection des données est assurée par?",
       options: [
-        "Web browsers",
-        "Databases",
-        "Operating systems",
-        "Hardware components"
+        "La couche Handshake Protocol",
+        "La couche ChangeCipherSpec Protocol",
+        "La couche Record Protocol",
+        " La couche Alert Protocol"
       ],
-      correctAnswer: "Databases"
+      correctAnswer: "La couche Record Protocol"
     },
     {
       id: 17,
-      text: "What is a man-in-the-middle (MitM) attack?",
+      text: "Quel protocole est utilisé pour sécuriser les connexions SSH?",
       options: [
-        "An attacker secretly intercepts and alters communications between two parties",
-        "A physical attack on a server room",
-        "A type of phishing email",
-        "A virus that hides in the middle of a file"
+        "RSA et AES",
+        "MD5",
+        "FTP",
+        "SMTP"
       ],
-      correctAnswer: "An attacker secretly intercepts and alters communications between two parties"
+      correctAnswer: "RSA et AES"
     },
     {
       id: 18,
-      text: "What is the difference between HTTP and HTTPS?",
+      text: "Qu'est-ce qu'une attaque XSS (Cross-Site Scripting)?",
       options: [
-        "HTTPS is faster",
-        "HTTPS encrypts the data transferred, HTTP does not",
-        "HTTP is for mobile, HTTPS is for desktop",
-        "There is no difference"
+        "Injection de scripts malveillants dans une page web",
+        "Attaque sur le DNS",
+        "Interception du trafic HTTPS",
+        "Exploitation d'une faille SSH"
       ],
-      correctAnswer: "HTTPS encrypts the data transferred, HTTP does not"
+      correctAnswer: "Injection de scripts malveillants dans une page web"
     },
     {
       id: 19,
-      text: "What is a botnet?",
+      text: "Dans le cadre d'un test d'intrusion, que signifie une approche en 'Boîte Grise' (Grey Box) ?",
       options: [
-        "A network of infected devices controlled by an attacker",
-        "A friendly robot assistant",
-        "A secure internal network",
-        "A type of antivirus software"
+        "Le test consiste uniquement à vérifier l'intégité physique des serveurs dans le centre de données",
+        "Le testeur dispose de certaines informations sur le système cible, mais pas d'un accès complet",
+        "Le testeur n'a aucune information préalable et doit découvrir les vulnérabilités de l'extérieur",
+        "Le testeur possède une connaissance complète du système cible, y compris les codes sources et les configurations"
       ],
-      correctAnswer: "A network of infected devices controlled by an attacker"
+      correctAnswer: "Le testeur dispose de certaines informations sur le système cible, mais pas d'un accès complet"
     },
     {
       id: 20,
-      text: "What is penetration testing?",
+      text: "Quelle est la principale différence entre le chiffrement symétrique et le chiffrement asymétrique?",
       options: [
-        "Testing how hard a physical server is",
-        "Authorized simulated cyberattacks to evaluate system security",
-        "Testing internet speed",
-        "A method of writing secure code"
+        "Le chiffrement asymétrique ne peut être utilisé que pour les communications par courrier électronique",
+        "le chiffrement symétrique est plus lent car il nécessite une puissance de calcul supérieure pour le déchiffrement",
+        "",
+        "Le chiffrement symétrique utilise une seule clé pour le chiffrement et le déchiffrement, tandis que le chiffrement asymétrique utilise une paire de clés"
       ],
-      correctAnswer: "Authorized simulated cyberattacks to evaluate system security"
+      correctAnswer: "Le chiffrement symétrique utilise une seule clé pour le chiffrement et le déchiffrement, tandis que le chiffrement asymétrique utilise une paire de clés"
     }
   ],
   Expert: [
     {
       id: 21,
-      text: "What is Cross-Site Scripting (XSS)?",
+      text: "Que fait la commande suivante nc -lvnp 4444?",
       options: [
-        "Injecting malicious scripts into trusted websites",
-        "Crossing out bad code",
-        "A secure way to link websites",
-        "A database management tool"
+        "Scanne les ports de 0 a 4444",
+        "Lance un serveur web sur le port 4444",
+        "Ouvre un listener Netcat sur le port 4444",
+        "Crypte les données"
       ],
-      correctAnswer: "Injecting malicious scripts into trusted websites"
+      correctAnswer: "Ouvre un listener Netcat sur le port 4444"
     },
     {
       id: 22,
-      text: "What is the purpose of a salt in password hashing?",
+      text: "Que fait la commande suivante chmod 4755 fichier?",
       options: [
-        "To make the password taste better",
-        "To add random data to the password before hashing to defend against dictionary attacks",
-        "To encrypt the password twice",
-        "To compress the password"
+        "Supprime le fichier",
+        "Cache le fichier",
+        "Donne les droits root via SUID",
+        "Crypte le fichier"
       ],
-      correctAnswer: "To add random data to the password before hashing to defend against dictionary attacks"
+      correctAnswer: "Donne les droits root via SUID"
     },
     {
       id: 23,
-      text: "What is a buffer overflow?",
+      text: "Qu'est-ce que le CVSS et à quoi sert son score ?",
       options: [
-        "When a program writes more data to a block of memory than it can hold",
-        "When a hard drive is full",
-        "When an internet connection is too slow",
-        "When a firewall blocks too much traffic"
+        "Un score numérique de 0 à 10 évaluant la sévérité d'une vulnérabilité",
+        "Un standard de chiffrement pour les communications entre SOC et CERT",
+        "Un système de classification des malwares par famille et comportement",
+        "Un score mesurant le temps moyen de détection d'une intrusion"
       ],
-      correctAnswer: "When a program writes more data to a block of memory than it can hold"
+      correctAnswer: "Un score numérique de 0 à 10 évaluant la sévérité d'une vulnérabilité"
     },
     {
       id: 24,
-      text: "Which encryption algorithm is considered asymmetric?",
+      text: "Qu'est-ce que le 'Living off the Land' (LotL)?",
       options: [
-        "AES",
-        "DES",
-        "RSA",
-        "Blowfish"
+        "Mener des attaques depuis des pays sans extradition",
+        "Utiliser uniquement des malwares open source",
+        "Exploiter des vulnérabilités dans les hyperviseurs pour sortir d'une VM",
+        "Utiliser des outils légitimes déjà présents sur le système cible"
       ],
-      correctAnswer: "RSA"
+      correctAnswer: "Utiliser des outils légitimes déjà présents sur le système cible"
     },
     {
       id: 25,
-      text: "What is the OSI model layer where IP routing occurs?",
+      text: "Un attaque de type IP Spoofing consiste à se faire passer pour une machine B auprès d'une machine A, laquelle de ces étapes n’est pas une composante de l’attaque ?",
       options: [
-        "Layer 2 (Data Link)",
-        "Layer 3 (Network)",
-        "Layer 4 (Transport)",
-        "Layer 7 (Application)"
+        "Le pirate paralyse la machine B",
+        "Le pirate devine le procédé de A pour générer des numéros de séquence",
+        "Le pirate se fait passer pour B auprès de A",
+        "Le pirate chiffre toutes les communications entre A et B"
       ],
-      correctAnswer: "Layer 3 (Network)"
+      correctAnswer: "Le pirate chiffre toutes les communications entre A et B"
     },
     {
       id: 26,
-      text: "What is a honeypot in cybersecurity?",
+      text: "Quelle technique de forensics permet d'analyser un système sans altérer les preuves?",
       options: [
-        "A trap set to detect, deflect, or study attempts at unauthorized use of information systems",
-        "A secure vault for storing passwords",
-        "A type of malware",
-        "A tool for encrypting emails"
+        "Analyser directement le système live",
+        "Créer une image disque bit-à-bit puis analyser la copie",
+        "Supprimer les fichiers suspects",
+        "Redémarrer le système"
       ],
-      correctAnswer: "A trap set to detect, deflect, or study attempts at unauthorized use of information systems"
+      correctAnswer: "Créer une image disque bit-à-bit puis analyser la copie"
     },
     {
       id: 27,
-      text: "What does CSRF stand for?",
+      text: "Dans un pentest, que teste l'outil Burp Suite?",
       options: [
-        "Cross-Site Request Forgery",
-        "Cyber Security Response Force",
-        "Central System Routing Function",
-        "Code Syntax Review Format"
+        "La sécurité réseau (couche 3)",
+        "Les applications web via un proxy interceptant HTTP/S ",
+        "La résistance au DDoS",
+        "La sécurité physique"
       ],
-      correctAnswer: "Cross-Site Request Forgery"
+      correctAnswer: "Les applications web via un proxy interceptant HTTP/S "
     },
     {
       id: 28,
-      text: "What is the primary difference between symmetric and asymmetric encryption?",
+      text: "Dans le cadre d'un échange de clés Diffie-Hellman, quelle est la difficulté qui empêche de calculer la clé secrète partagée ?",
       options: [
-        "Symmetric uses one key for both encryption and decryption; asymmetric uses a public/private key pair",
-        "Symmetric is slower than asymmetric",
-        "Asymmetric is only used for local files",
-        "There is no difference"
+        "La difficulté de factoriser le produitde grands nombres premiers",
+        "L'impossibilité de prédire le vecteur d'intialisation (IV) utilisé pour le chiffrement par bloc",
+        "La collision de hashage via l'attaque de birthday",
+        "Le problème du logarithme discret dans un groupe cyclique fini"
       ],
-      correctAnswer: "Symmetric uses one key for both encryption and decryption; asymmetric uses a public/private key pair"
+      correctAnswer: "Le problème du logarithme discret dans un groupe cyclique fini"
     },
     {
       id: 29,
-      text: "What is steganography?",
+      text: "Qu'est-ce qu'une attaque par 'Padding Oracle' dans le contexte du protocole TLS ?",
       options: [
-        "The practice of concealing a file, message, image, or video within another file",
-        "A type of dinosaur",
-        "A method of cracking passwords",
-        "A secure network protocol"
+        "L'injection de caractères de remplissage dans une base de données pour contourner l'authentification",
+        "Une attaque qui utilise les messages d'erreur du serveur concernant le padding pour déchiffrer les données sans la clé",
+        "Une technique consistant à remplir la mémoire tampon d'une application pour exécuter du code arbitraire",
+        "L'utilisation d'un certificat auto-signé pour usurper l'identité d'un serveur légitime"
       ],
-      correctAnswer: "The practice of concealing a file, message, image, or video within another file"
+      correctAnswer: "Une attaque qui utilise les messages d'erreur du serveur concernant le padding pour déchiffrer les données sans la clé"
     },
     {
       id: 30,
-      text: "What is an Advanced Persistent Threat (APT)?",
+      text: "Quel mécanisme de sécurité permet de limiter les dégâts d'une exploitation de vulnérabilité en rendant les adresses mémoire des bibliothèques imprévisibles à chaque exécution ?",
       options: [
-        "A quick, automated attack",
-        "A prolonged and targeted cyberattack in which an intruder gains access to a network and remains undetected",
-        "A type of antivirus software",
-        "A secure firewall configuration"
+        "Le sanboxing (bac à sable)",
+        "ASLR (Address Space Layout Randomization)",
+        "DEP(DataExecution Prevention)",
+        "HSTS (HTTP Strict Transport Security)"
       ],
-      correctAnswer: "A prolonged and targeted cyberattack in which an intruder gains access to a network and remains undetected"
+      correctAnswer: "ASLR (Address Space Layout Randomization)"
     }
   ]
 };
